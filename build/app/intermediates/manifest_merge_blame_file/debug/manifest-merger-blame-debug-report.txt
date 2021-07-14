@@ -1,0 +1,137 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.rasp_torrent_flutter_app"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="30" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Project\rasp\rasp_torrent_flutter_app-main\android\app\src\debug\AndroidManifest.xml:6:5-66
+14-->C:\Project\rasp\rasp_torrent_flutter_app-main\android\app\src\debug\AndroidManifest.xml:6:22-64
+15
+16    <queries>
+16-->C:\Project\rasp\rasp_torrent_flutter_app-main\android\app\src\main\AndroidManifest.xml:3:5-19:11
+17
+18        <!-- If your app opens https URLs -->
+19        <intent>
+19-->C:\Project\rasp\rasp_torrent_flutter_app-main\android\app\src\main\AndroidManifest.xml:5:3-8:12
+20            <action android:name="android.intent.action.VIEW" />
+20-->C:\Project\rasp\rasp_torrent_flutter_app-main\android\app\src\main\AndroidManifest.xml:6:5-57
+20-->C:\Project\rasp\rasp_torrent_flutter_app-main\android\app\src\main\AndroidManifest.xml:6:13-54
+21
+22            <data android:scheme="https" />
+22-->C:\Project\rasp\rasp_torrent_flutter_app-main\android\app\src\main\AndroidManifest.xml:7:5-36
+22-->C:\Project\rasp\rasp_torrent_flutter_app-main\android\app\src\main\AndroidManifest.xml:7:11-33
+23        </intent>
+24        <!-- If your app makes calls -->
+25        <intent>
+25-->C:\Project\rasp\rasp_torrent_flutter_app-main\android\app\src\main\AndroidManifest.xml:10:3-13:12
+26            <action android:name="android.intent.action.DIAL" />
+26-->C:\Project\rasp\rasp_torrent_flutter_app-main\android\app\src\main\AndroidManifest.xml:11:5-57
+26-->C:\Project\rasp\rasp_torrent_flutter_app-main\android\app\src\main\AndroidManifest.xml:11:13-54
+27
+28            <data android:scheme="tel" />
+28-->C:\Project\rasp\rasp_torrent_flutter_app-main\android\app\src\main\AndroidManifest.xml:7:5-36
+28-->C:\Project\rasp\rasp_torrent_flutter_app-main\android\app\src\main\AndroidManifest.xml:7:11-33
+29        </intent>
+30        <!-- If your app emails -->
+31        <intent>
+31-->C:\Project\rasp\rasp_torrent_flutter_app-main\android\app\src\main\AndroidManifest.xml:15:3-18:12
+32            <action android:name="android.intent.action.SEND" />
+32-->C:\Project\rasp\rasp_torrent_flutter_app-main\android\app\src\main\AndroidManifest.xml:16:5-57
+32-->C:\Project\rasp\rasp_torrent_flutter_app-main\android\app\src\main\AndroidManifest.xml:16:13-54
+33
+34            <data android:mimeType="*/*" />
+34-->C:\Project\rasp\rasp_torrent_flutter_app-main\android\app\src\main\AndroidManifest.xml:7:5-36
+35        </intent>
+36    </queries>
+37
+38    <application
+38-->C:\Project\rasp\rasp_torrent_flutter_app-main\android\app\src\main\AndroidManifest.xml:20:4-58:19
+39        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+39-->[androidx.core:core:1.1.0] C:\Users\NICHAL\.gradle\caches\transforms-2\files-2.1\2e94107f30f39be366a17347c2bf100b\core-1.1.0\AndroidManifest.xml:24:18-86
+40        android:debuggable="true"
+41        android:icon="@mipmap/ic_launcher"
+41-->C:\Project\rasp\rasp_torrent_flutter_app-main\android\app\src\main\AndroidManifest.xml:22:9-43
+42        android:label="rasp_torrent_flutter_app" >
+42-->C:\Project\rasp\rasp_torrent_flutter_app-main\android\app\src\main\AndroidManifest.xml:21:9-49
+43        <activity
+43-->C:\Project\rasp\rasp_torrent_flutter_app-main\android\app\src\main\AndroidManifest.xml:24:9-52:20
+44            android:name="com.example.rasp_torrent_flutter_app.MainActivity"
+44-->C:\Project\rasp\rasp_torrent_flutter_app-main\android\app\src\main\AndroidManifest.xml:25:13-41
+45            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+45-->C:\Project\rasp\rasp_torrent_flutter_app-main\android\app\src\main\AndroidManifest.xml:28:13-163
+46            android:hardwareAccelerated="true"
+46-->C:\Project\rasp\rasp_torrent_flutter_app-main\android\app\src\main\AndroidManifest.xml:29:13-47
+47            android:launchMode="singleTop"
+47-->C:\Project\rasp\rasp_torrent_flutter_app-main\android\app\src\main\AndroidManifest.xml:26:13-43
+48            android:theme="@style/LaunchTheme"
+48-->C:\Project\rasp\rasp_torrent_flutter_app-main\android\app\src\main\AndroidManifest.xml:27:13-47
+49            android:windowSoftInputMode="adjustResize" >
+49-->C:\Project\rasp\rasp_torrent_flutter_app-main\android\app\src\main\AndroidManifest.xml:30:13-55
+50
+51            <!--
+52                 Specifies an Android theme to apply to this Activity as soon as
+53                 the Android process has started. This theme is visible to the user
+54                 while the Flutter UI initializes. After that, this theme continues
+55                 to determine the Window background behind the Flutter UI.
+56            -->
+57            <meta-data
+57-->C:\Project\rasp\rasp_torrent_flutter_app-main\android\app\src\main\AndroidManifest.xml:35:13-38:17
+58                android:name="io.flutter.embedding.android.NormalTheme"
+58-->C:\Project\rasp\rasp_torrent_flutter_app-main\android\app\src\main\AndroidManifest.xml:36:15-70
+59                android:resource="@style/NormalTheme" />
+59-->C:\Project\rasp\rasp_torrent_flutter_app-main\android\app\src\main\AndroidManifest.xml:37:15-52
+60            <!--
+61                 Displays an Android View that continues showing the launch screen
+62                 Drawable until Flutter paints its first frame, then this splash
+63                 screen fades out. A splash screen is useful to avoid any visual
+64                 gap between the end of Android's launch screen and the painting of
+65                 Flutter's first frame.
+66            -->
+67            <meta-data
+67-->C:\Project\rasp\rasp_torrent_flutter_app-main\android\app\src\main\AndroidManifest.xml:44:13-47:17
+68                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+68-->C:\Project\rasp\rasp_torrent_flutter_app-main\android\app\src\main\AndroidManifest.xml:45:15-79
+69                android:resource="@drawable/launch_background" />
+69-->C:\Project\rasp\rasp_torrent_flutter_app-main\android\app\src\main\AndroidManifest.xml:46:15-61
+70
+71            <intent-filter>
+71-->C:\Project\rasp\rasp_torrent_flutter_app-main\android\app\src\main\AndroidManifest.xml:48:13-51:29
+72                <action android:name="android.intent.action.MAIN" />
+72-->C:\Project\rasp\rasp_torrent_flutter_app-main\android\app\src\main\AndroidManifest.xml:49:17-68
+72-->C:\Project\rasp\rasp_torrent_flutter_app-main\android\app\src\main\AndroidManifest.xml:49:25-66
+73
+74                <category android:name="android.intent.category.LAUNCHER" />
+74-->C:\Project\rasp\rasp_torrent_flutter_app-main\android\app\src\main\AndroidManifest.xml:50:17-76
+74-->C:\Project\rasp\rasp_torrent_flutter_app-main\android\app\src\main\AndroidManifest.xml:50:27-74
+75            </intent-filter>
+76        </activity>
+77        <!--
+78             Don't delete the meta-data below.
+79             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+80        -->
+81        <meta-data
+81-->C:\Project\rasp\rasp_torrent_flutter_app-main\android\app\src\main\AndroidManifest.xml:55:9-57:33
+82            android:name="flutterEmbedding"
+82-->C:\Project\rasp\rasp_torrent_flutter_app-main\android\app\src\main\AndroidManifest.xml:56:13-44
+83            android:value="2" />
+83-->C:\Project\rasp\rasp_torrent_flutter_app-main\android\app\src\main\AndroidManifest.xml:57:13-30
+84
+85        <activity
+85-->[:url_launcher] C:\Project\rasp\rasp_torrent_flutter_app-main\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
+86            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+86-->[:url_launcher] C:\Project\rasp\rasp_torrent_flutter_app-main\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
+87            android:exported="false"
+87-->[:url_launcher] C:\Project\rasp\rasp_torrent_flutter_app-main\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
+88            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+88-->[:url_launcher] C:\Project\rasp\rasp_torrent_flutter_app-main\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+89    </application>
+90
+91</manifest>

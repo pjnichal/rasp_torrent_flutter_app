@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/example/rasp_torrent_flutter_app/BuildConfig.java
+ com.example.rasp_torrent_flutter_app.BuildConfig
