@@ -64,11 +64,7 @@ class AddTorrent extends StatelessWidget {
                   listener: (_, state) {
                 if (state is AddedTorrentSuccess) {
                   Navigator.of(context).pop();
-                  // Navigator.of(context).pushNamedAndRemoveUntil(
-                  //     '/',
-                  //     (route) => route.isCurrent && route.settings.name == "/"
-                  //         ? false
-                  //         : true);
+                 
                 }
               }, builder: (context, state) {
                 return MaterialButton(

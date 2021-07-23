@@ -96,23 +96,8 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
         drawer: AboutDrawer(),
         body: SafeArea(
-          child: BlocConsumer<GetTorrentBloc, GetTorrentState>(
-              listener: (context, state) async {
-            // if (state is GetTorrentSuccess) {
-            //   await Future.delayed(Duration(seconds: 1));
-            //   BlocProvider.of<GetTorrentBloc>(context).add(FetchTorrentEvent());
-            // } else if (state is GetTorrentFailed) {
-            //   await Future.delayed(Duration(seconds: 1));
-            //   BlocProvider.of<GetTorrentBloc>(context).add(FetchTorrentEvent());
-            // } else if (state is GetTorrentEmpty) {
-            //   await Future.delayed(Duration(seconds: 1));
-            //   BlocProvider.of<GetTorrentBloc>(context).add(FetchTorrentEvent());
-            // }
-            // await Future.delayed(Duration(seconds: 1));
-            // BlocProvider.of<GetTorrentBloc>(context).add(FetchTorrentEvent());
-
-            // do stuff here based on BlocA's state
-          }, builder: (context, state) {
+          child: BlocBuilder<GetTorrentBloc, GetTorrentState>(
+              builder: (context, state) {
             if (state is GetTorrentSuccess) {
               return TabBarView(
                 children: [

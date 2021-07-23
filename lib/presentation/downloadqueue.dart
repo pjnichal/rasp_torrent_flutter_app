@@ -44,37 +44,4 @@ class DownloadQueue extends StatelessWidget {
     );
   }
 }
- // (
-    //   child: Padding(
-    //     padding: const EdgeInsets.only(top: 20, bottom: 20),
-    //     child: ListView.builder(
-    //       itemCount: 4,
-    //       itemBuilder: (BuildContext buildContext, int index) {
-    //         return DownloadTile();
-    //       },
-    //     ),
-    //   ),
-    // );
-// BlocConsumer<GetTorrentBloc, GetTorrentState>(
-//         listener: (context, state) async {
-//       if (state is GetTorrentSuccess) {
-//         await Future.delayed(Duration(seconds: 1));
-//         BlocProvider.of<GetTorrentBloc>(context).add(FetchTorrentEvent());
-//       }
-//       // do stuff here based on BlocA's state
-//     }, builder: (context, state) {
-//       if (state is GetTorrentSuccess) {
-//         return Padding(
-//           padding: const EdgeInsets.only(top: 20, bottom: 20),
-//           child: ListView.builder(
-//             itemCount: state.torrentmodels.length,
-//             itemBuilder: (BuildContext buildContext, int index) {
-//               return DownloadTile(torrent: state.torrentmodels[index]);
-//             },
-//           ),
-//         );
-//       }
-
-//       return CircularProgressIndicator(); //MaterialButton(child: Text('hello'), onPressed: () {});
-//       // return widget here based on BlocA's state
-//     });
+ 
